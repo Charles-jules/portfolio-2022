@@ -74,7 +74,7 @@ html {
 :root {
   --primary-text-color: #222;
   --holding-page-title-color: #ebedf0;
-  --accent-color: #5200FF;
+  --accent-color: #2e75cb;
   --overlay-color: #5200FF;
   --hyperlink-color: #444;
   --hyperlink-alternate-color: orangered;
@@ -90,7 +90,7 @@ html {
   --alice-blue: #f0f8ff;
   --alabaster: #f2f0e6;
   --floral-white: #fffaf0;
-  --background-color: #f5f5f5;
+  --background-color: #0db8cbe6;
   --alt-background-color: black;
   --text-selection-background-color: #555;
 }
@@ -137,7 +137,7 @@ h1 {
   font-size: 2rem;
   font-family: var(--heading-typeface);
   margin-bottom: 1rem;
-  color: var(--baby-powder);
+  color: var(--accent-color);
 }
 
 .hero-headline {color: var(--overlay-color);}
@@ -736,7 +736,7 @@ a.sub-navigation-link:hover {background: var(--accent-color); color: var(--flora
   }
 
   .grid {
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
     grid-gap: 1rem;
   }
 
