@@ -75,7 +75,7 @@ html {
   --primary-text-color: #222;
   --holding-page-title-color: #ebedf0;
   --accent-color: #2e75cb;
-  --overlay-color: #5200FF;
+  --overlay-color: #2e75cb;
   --hyperlink-color: #444;
   --hyperlink-alternate-color: orangered;
   --hover-color: #111;
@@ -151,6 +151,7 @@ h1 {
 
 .overlay-title {
   font-size: 2.875rem;
+  color: white;
 }
 
 h2 {
@@ -550,16 +551,13 @@ p {
   text-align: center;
   width: 100%;
   min-height: 100vh;
-  background:
-    linear-gradient(0deg, rgba(0, 0, 0, 1), rgba(18, 8, 80, 0.62)),
-    url(/assets/temp/noise.svg);
-  /* https://grainy-gradients.vercel.app/ */
+  background: var(--background-color);
 }
 
 
 .holding-page-animation {
-  margin-bottom: 1rem;
-  width: 6rem;
+  margin: 0 auto 1rem auto;
+  width: 8rem;
 }
 
 .holding-page-title {
@@ -713,7 +711,7 @@ a.sub-navigation-link:hover {background: var(--accent-color); color: var(--flora
   }
 
   h1 {
-    font-size: 4.275rem;
+    font-size: 3.725rem;
   }
 
   h2 {
